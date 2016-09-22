@@ -12,13 +12,13 @@ webpackJsonp([0],[
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _Knight = __webpack_require__(3);
+	var _knight = __webpack_require__(3);
 
-	var _Knight2 = _interopRequireDefault(_Knight);
+	var _knight2 = _interopRequireDefault(_knight);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	_reactDom2.default.render(_react2.default.createElement(_Knight2.default, null), document.getElementById('root'));
+	_reactDom2.default.render(_react2.default.createElement(_knight2.default, null), document.getElementById('root'));
 
 /***/ },
 /* 1 */
@@ -81,6 +81,9 @@ webpackJsonp([0],[
 	  return Knight;
 	}(_react.Component);
 
+	Knight.propTypes = {
+	  name: _react2.default.PropTypes.string
+	};
 	exports.default = Knight;
 
 /***/ },
